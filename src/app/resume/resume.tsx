@@ -1,13 +1,11 @@
+import { education } from "@/config/education"
 import { work_experience } from "@/config/experience"
+import { projects } from "@/config/projects"
 import { print } from "@/lib/actions"
-import Image from "next/image"
 import {
   SiAdobeillustrator,
   SiAdobephotoshop,
   SiBootstrap,
-  SiElectron,
-  SiFigma,
-  SiFramer,
   SiJirasoftware,
   SiLaravel,
   SiNestjs,
@@ -15,13 +13,9 @@ import {
   SiNodedotjs,
   SiPhp,
   SiReact,
-  SiTailwindcss,
-  SiThreedotjs,
+  SiTailwindcss
 } from "react-icons/si"
-import { SlCompass, SlEnvolope, SlGlobe, SlPhone } from "react-icons/sl"
 import WorkExperience from "./experience"
-import { education } from "@/config/education"
-import { projects } from "@/config/projects"
 
 export function Resume() {
   const skills = [

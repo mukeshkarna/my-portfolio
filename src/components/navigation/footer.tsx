@@ -1,8 +1,6 @@
-import React from "react"
-import { SiFacebook, SiGithub, SiInstagram, SiLinkedin } from "react-icons/si"
-import { ThemeSwitch } from "@/components/shared/theme-switcher"
 import { siteConfig } from "@/config/site"
 import Link from "next/link"
+import { SiFacebook, SiGithub, SiInstagram, SiLinkedin } from "react-icons/si"
 export function Footer() {
   return (
     <footer className="bottom-0 w-screen print:hidden">

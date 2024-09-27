@@ -10,7 +10,6 @@ import {
 } from "@/config/site"
 import { Header } from "@/components/navigation/header"
 import { Footer } from "@/components/navigation/footer"
-import AnimatedCursor from "react-animated-cursor"
 
 const ibm_mono = Karla({
   subsets: ["latin"],

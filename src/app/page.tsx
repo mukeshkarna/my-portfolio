@@ -1,7 +1,6 @@
 import { what_i_do } from "@/config/what-i-do"
 import { cn, getExperienceYears } from "@/lib/utils"
 import { ArrowTopRightIcon } from "@radix-ui/react-icons"
-import Image from "next/image"
 import Link from "next/link"
 
 export default function Home() {
@@ -16,6 +15,7 @@ export default function Home() {
               style={{
                 top: `${(index + 1) * 2 + 5}rem`,
               }}
+              key={index + 1}
               className={cn(
                 "group sticky flex flex-col border bg-background/80 backdrop-blur-sm sm:flex-row print:bg-[#f4f4f4]"
               )}
