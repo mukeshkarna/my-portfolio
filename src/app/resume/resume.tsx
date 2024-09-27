@@ -130,7 +130,7 @@ export function Resume() {
           <div className="col-span-5 bg-foreground/5 py-4 pl-4 md:col-span-2 print:bg-transparent print:pl-0 print:sm:col-span-2">
             <h2 className="mb-4 text-2xl font-normal">Education</h2>
             {education.map((item) => (
-              <div className="pt-4">
+              <div key={item.level} className="pt-4">
                 <p className="hidden text-sm text-muted-foreground">
                   {item.year}
                 </p>
@@ -202,7 +202,10 @@ export function Resume() {
           <h2 className="text-2xl font-normal">Projects</h2>
           <div className="grid gap-4 pt-8 sm:grid-cols-2">
             {projects.map((item) => (
-              <div className="bg-foreground/5 p-4 print:bg-[#f4f4f4]">
+              <div
+                key={item.name}
+                className="bg-foreground/5 p-4 print:bg-[#f4f4f4]"
+              >
                 <h2 className="text-xl font-normal">{item.name}</h2>
                 <div className="pt-1">
                   <p className="text-sm text-muted-foreground"></p>
