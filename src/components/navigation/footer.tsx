@@ -1,6 +1,6 @@
 import { siteConfig } from "@/config/site"
 import Link from "next/link"
-import { SiFacebook, SiGithub, SiInstagram, SiLinkedin } from "react-icons/si"
+import { SiFacebook, SiGithub, SiLinkedin } from "react-icons/si"
 export function Footer() {
   return (
     <footer className="bottom-0 w-screen print:hidden">
@@ -31,14 +31,6 @@ export function Footer() {
                 <SiFacebook className="size-4" />
               </Link>
             </li>
-            {/* <li>
-              <Link
-                href="https://www.instagram.com/mukeshkarn/"
-                className="duration-300 hover:text-pink-500"
-              >
-                <SiInstagram className="size-4" />
-              </Link>
-            </li> */}
           </ul>
           <p className="text-sm">
             &copy; {new Date().getFullYear()} {siteConfig.name}
