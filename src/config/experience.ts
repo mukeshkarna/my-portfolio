@@ -1,8 +1,10 @@
+import moment from "moment";
+
 export const work_experience = [
   {
     jobTitle: "Senior Software Developer",
     company: "Threatsview LLC",
-    duration: "Sep 2023 - Present",
+    duration: "Sep 2023 - Present"+ " | " + moment().diff("Sep 2023", "months") + " months",
     responsibilities: [
       "Lead and participate in the design, development, and implementation of software solutions.",
       "Provide technical guidance and mentorship to the development team.",
@@ -15,7 +17,7 @@ export const work_experience = [
   {
     jobTitle: "Senior Software Engineer",
     company: "PenIT Technology Pte Ltd",
-    duration: "Oct 2021 - Sep 2023",
+    duration: "Oct 2021 - Sep 2023" + " | " + moment('Sep 2023').diff("Oct 2021", "months") + " months",
     responsibilities: [
       "Managed multiple projects and coordinated the team to ensure timely completion of deliverables.",
       "Oversaw project development phases, ensuring alignment with client requirements and company standards.",
@@ -26,7 +28,7 @@ export const work_experience = [
   {
     jobTitle: "Associate Software Engineer",
     company: "Leapfrog Technology",
-    duration: "Jan 2021 - Sep 2021",
+    duration: "Jan 2021 - Sep 2021" + " | " + moment('Sep 2021').diff("Jan 2021", "months") + " months",
     responsibilities: [
       "Developed software applications under supervision, ensuring high quality and compliance with coding standards.",
       "Collaborated within a team to create efficient software solutions, actively contributing to project discussions and decisions.",
@@ -38,7 +40,7 @@ export const work_experience = [
   {
     jobTitle: "Junior Node Developer",
     company: "E.K. Solutions Pvt. Ltd.",
-    duration: "Dec 2018 - Dec 2020",
+    duration: "Dec 2018 - Dec 2020" + " | " + moment('Dec 2020').diff("Dec 2018", "months") + " months",
     responsibilities: [
       "Worked as a Node.js developer on four projects, contributing primarily to backend development.",
       "Participated as a full-stack developer on two projects using the MEVN stack.",
@@ -48,7 +50,7 @@ export const work_experience = [
   {
     jobTitle: "Junior PHP Developer",
     company: "Classic Tech",
-    duration: "Mar 2018 - Jul 2018",
+    duration: "Mar 2018 - Jul 2018" + " | " + moment('Jul 2018').diff("Mar 2018", "months") + " months",
     responsibilities: [
       "Developed a Stock Management Module in HRIS using CodeIgniter, jQuery, JavaScript, and AJAX.",
       "Collaborated on various project phases, ensuring successful integration of functionality and user experience.",

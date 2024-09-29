@@ -17,7 +17,7 @@ export function Footer() {
             </li>
             <li>
               <Link
-                href="https://github.com/mukeshkarn"
+                href="https://github.com/mukeshkarna"
                 className="duration-300 hover:text-violet-600"
               >
                 <SiGithub className="size-4" />
@@ -25,20 +25,20 @@ export function Footer() {
             </li>
             <li>
               <Link
-                href="https://www.facebook.com/mukeshkarn"
+                href="https://www.facebook.com/karnamukesh"
                 className="duration-300 hover:text-sky-600"
               >
                 <SiFacebook className="size-4" />
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="https://www.instagram.com/mukeshkarn/"
                 className="duration-300 hover:text-pink-500"
               >
                 <SiInstagram className="size-4" />
               </Link>
-            </li>
+            </li> */}
           </ul>
           <p className="text-sm">
             &copy; {new Date().getFullYear()} {siteConfig.name}

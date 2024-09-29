@@ -40,11 +40,11 @@ export function Header() {
               Full Stack Developer | Kathmandu, Nepal
             </h2>
           </div>
-          <p className="text-pretty font-light text-muted-foreground">
+          <p className="text-pretty font-light text-muted-foreground text-justify">
             An experienced Full-Stack Developer with expertise in both frontend
             and backend technologies. Specializing in building dynamic,
             high-performance web applications using modern tools and frameworks
-            like Node.js, React.js, Next.js, MongoDB, PHP, MySQL, Bootstrap,
+            like Node.js, React.js, Next.js, MongoDB, Laravel, PostgreSQL, PHP, MySQL, Bootstrap,
             TailwindCSS, and more. Skilled in creating intuitive and engaging
             user interfaces, with a strong flair for design and a focus on
             delivering user-friendly, scalable solutions.

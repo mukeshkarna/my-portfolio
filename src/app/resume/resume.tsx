@@ -1,11 +1,12 @@
 import { education } from "@/config/education"
 import { work_experience } from "@/config/experience"
-import { projects } from "@/config/projects"
+import { projects, otherProjects } from "@/config/projects"
 import { print } from "@/lib/actions"
 import {
   SiAdobeillustrator,
   SiAdobephotoshop,
   SiBootstrap,
+  SiDocker,
   SiJirasoftware,
   SiLaravel,
   SiNestjs,
@@ -102,6 +103,9 @@ export function Resume() {
             <SiLaravel className="h-7 w-7 print:text-black" />
           </div>
           <div className="rounded-lg bg-foreground/10 p-4">
+            <SiDocker className="h-7 w-7 print:text-black" />
+          </div>
+          <div className="rounded-lg bg-foreground/10 p-4">
             <SiPhp className="h-7 w-7 print:text-black" />
           </div>
           <div className="rounded-lg bg-foreground/10 p-4">
@@ -196,6 +200,30 @@ export function Resume() {
           <h2 className="text-2xl font-normal">Projects</h2>
           <div className="grid gap-4 pt-8 sm:grid-cols-2">
             {projects.map((item) => (
+              <div
+                key={item.name}
+                className="bg-foreground/5 p-4 print:bg-[#f4f4f4]"
+              >
+                <h2 className="text-xl font-normal">{item.name}</h2>
+                <div className="pt-1">
+                  <p className="text-sm text-muted-foreground"></p>
+                  <div className="flex items-end gap-2">
+                    <p className="text-sm font-normal">{item.role}</p>
+                  </div>
+                  <p className="pt-2 text-muted-foreground">
+                    {item.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="pt-8">
+          {" "}
+          <h2 className="text-2xl font-normal">Other Projects</h2>
+          <div className="grid gap-4 pt-8 sm:grid-cols-2">
+            {otherProjects.map((item) => (
               <div
                 key={item.name}
                 className="bg-foreground/5 p-4 print:bg-[#f4f4f4]"
