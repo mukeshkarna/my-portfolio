@@ -63,7 +63,7 @@ export const projects = [
 export const otherProjects = [
   {
     name: "Bachat Samuha Application",
-    description: "It is the site to manage the Saving group, which is established by some similar mindset with the objective to support each other financially. I have developed this site to help the group manage the member and monetary details with ease. From this site, Admin will manage all the information. Every individual member can also see the deposited amount and loan details. To manage the Deposited amount and Loan amount, the team has provided a separate management page.",
+    description: "It is the site to manage the Saving group built with Laravel and MySQL. Mukesh handled Full Stack development.",
     role: "Full-Stack Developer",
   },
 ]
