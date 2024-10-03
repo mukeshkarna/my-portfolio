@@ -31,7 +31,6 @@ export function Resume() {
     "MySQL",
     "PostgreSQL",
     "MERN Stack",
-    "ElectronJS",
     "Docker",
     "TailwindCSS",
     "Bootstrap",
@@ -63,8 +62,6 @@ export function Resume() {
     "Innovative Web Solutions",
     "Reading Technical Books",
     "Exploring Emerging Tech Trends",
-    "Music",
-    "Digital Painting",
     "Continuous Learning",
   ]
 

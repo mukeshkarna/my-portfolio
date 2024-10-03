@@ -12,7 +12,7 @@ export const education = [
   },
   {
     level: "Secondary Level",
-    institute: "Namuna Machhindra Sec.School",
+    institute: "Namuna Machhindra Sec. School",
     year: "2002-2009",
   },
 ]
