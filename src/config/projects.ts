@@ -6,10 +6,16 @@ export const projects = [
     role: "Project Manager & Lead Developer",
   },
   {
-    name: "Groovy",
+    name: "Dapy",
     description:
       "A financial platform enabling seamless transactions between payers and payees. I took the lead in building this solution using Laravel for the backend, Vue.js for the frontend, and PostgreSQL for managing the database. The project focused on delivering a secure and intuitive payment experience, handling complex financial workflows with ease.",
     role: "Lead Developer",
+  },
+  {
+    name: "Groovy",
+    description:
+      "A mobile app to schedule calls using whatsapp. I maintained the API and database for the project.",
+    role: "API Developer",
   },
   {
     name: "Expecting",
