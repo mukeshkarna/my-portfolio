@@ -201,7 +201,11 @@ export function Resume() {
                 key={item.name}
                 className="bg-foreground/5 p-4 print:bg-[#f4f4f4]"
               >
-                <h2 className="text-xl font-normal">{item.name}</h2>
+                <h2 className="text-xl font-normal">
+                {item.link ?
+                <a href={item.link} target="_blank" rel="noreferrer" className="hover:underline">{item.name}</a>
+                : <>{item.name}</>}
+                </h2>
                 <div className="pt-1">
                   <p className="text-sm text-muted-foreground"></p>
                   <div className="flex items-end gap-2">
@@ -225,7 +229,11 @@ export function Resume() {
                 key={item.name}
                 className="bg-foreground/5 p-4 print:bg-[#f4f4f4]"
               >
-                <h2 className="text-xl font-normal">{item.name}</h2>
+                <h2 className="text-xl font-normal">
+                {item.link ?
+                <a href={item.link} target="_blank" rel="noreferrer" className="hover:underline">{item.name}</a>
+                : <>{item.name}</>}
+                  </h2>
                 <div className="pt-1">
                   <p className="text-sm text-muted-foreground"></p>
                   <div className="flex items-end gap-2">
