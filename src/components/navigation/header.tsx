@@ -2,6 +2,8 @@ import React from "react"
 import { SlCompass, SlEnvolope, SlGlobe, SlPhone } from "react-icons/sl"
 import { ThemeSwitch } from "../shared/theme-switcher"
 import Link from "next/link"
+import Image from "next/image"
+
 export function Header() {
   return (
     <header className="w-full">
@@ -24,30 +26,63 @@ export function Header() {
           </div>
         </div>
         <div className="space-y-8 pt-24 sm:pt-40 print:pt-16">
-          <div className="flex flex-col justify-between gap-2">
-            <p className="pl-1 text-xl print:hidden">Hi, I&apos;m</p>
-            <h1 className="hidden text-4xl font-normal leading-none duration-200 sm:text-5xl md:text-6xl print:block">
-              Mukesh Karna
-            </h1>
-            <h1 className="flex-col text-5xl font-bold leading-[1.2] sm:flex sm:text-7xl print:hidden">
-              <span className="font-light tracking-tighter">MUKESH</span>
-              <span className="ml-2 text-4xl sm:ml-0 sm:text-5xl">KARNA</span>
-            </h1>
-            <h2 className="font-light text-muted-foreground duration-200 sm:text-xl md:text-2xl print:hidden">
-              A Full Stack Developer based in Kathmandu, Nepal
-            </h2>
-            <h2 className="hidden font-light text-muted-foreground duration-200 sm:text-xl md:text-2xl print:block print:font-normal print:text-black">
-              Full Stack Developer | Kathmandu, Nepal
-            </h2>
+          <div className="relative mb-12 overflow-hidden rounded-xl">
+            {/* Cover image */}
+            <div className="absolute inset-0 z-0">
+              <Image
+                src="/assets/IMG_5224.JPG"
+                alt="Cover background"
+                fill
+                className="object-cover"
+                priority
+              />
+              {/* Overlay to ensure text readability */}
+              <div className="absolute inset-0 bg-background/70 backdrop-blur-none dark:bg-background/80"></div>
+            </div>
+
+            {/* Content with padding to sit nicely on the cover image */}
+            <div className="relative z-10 p-6 md:p-10">
+              <div className="flex flex-col-reverse gap-6 md:flex-row md:items-center md:justify-between">
+                <div className="flex flex-col justify-between gap-2">
+                  <p className="pl-1 text-xl print:hidden">Hi, I&apos;m</p>
+                  <h1 className="hidden text-4xl font-normal leading-none duration-200 sm:text-5xl md:text-6xl print:block">
+                    Mukesh Karna
+                  </h1>
+                  <h1 className="flex-col text-5xl font-bold leading-[1.2] sm:flex sm:text-7xl print:hidden">
+                    <span className="font-light tracking-tighter">MUKESH</span>
+                    <span className="ml-2 text-4xl sm:ml-0 sm:text-5xl">
+                      KARNA
+                    </span>
+                  </h1>
+                  <h2 className="font-light text-muted-foreground duration-200 sm:text-xl md:text-2xl print:hidden">
+                    A Full Stack Developer based in Kathmandu, Nepal
+                  </h2>
+                  <h2 className="hidden font-light text-muted-foreground duration-200 sm:text-xl md:text-2xl print:block print:font-normal print:text-black">
+                    Full Stack Developer | Kathmandu, Nepal
+                  </h2>
+                </div>
+                <div className="flex justify-center md:justify-end">
+                  <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 dark:border-white border-accent shadow-lg">
+                    <Image
+                      src="/assets/mukesh.jpeg"
+                      alt="Mukesh Karna"
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <p className="text-pretty font-light text-muted-foreground text-justify">
+          <p className="text-pretty text-justify font-light text-muted-foreground">
             An experienced Full-Stack Developer with expertise in both frontend
             and backend technologies. Specializing in building dynamic,
             high-performance web applications using modern tools and frameworks
-            like Node.js, React.js, Next.js, MongoDB, Laravel, PostgreSQL, PHP, MySQL, Bootstrap,
-            TailwindCSS, and more. Skilled in creating intuitive and engaging
-            user interfaces, with a strong flair for design and a focus on
-            delivering user-friendly, scalable solutions.
+            like Node.js, React.js, Next.js, MongoDB, Laravel, PostgreSQL, PHP,
+            MySQL, Bootstrap, TailwindCSS, and more. Skilled in creating
+            intuitive and engaging user interfaces, with a strong flair for
+            design and a focus on delivering user-friendly, scalable solutions.
           </p>
           <div className="text-sm">
             <div className="flex flex-wrap justify-between gap-6">

@@ -130,6 +130,6 @@ export const portfolioKeywords = [
 
     // Experience and Education
     "Bachelors in Computer Science",
-    "4 Years of Experience in Web Development",
+    "6 Years of Experience in Web Development",
     "Certified Web Developer"
 ];

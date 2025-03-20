@@ -15,6 +15,17 @@ export const work_experience = [
     employmentType: "Full Time",
   },
   {
+    jobTitle: "Lecturer",
+    company: "Araniko College of Business and Technology",
+    duration: `Mar 2023 - Present (${current}) | ${moment(current).diff("Mar 2023", "months")} months`,
+    responsibilities: [
+      "Taught Scripting Language (JS, PHP & MySQL, OOP in PHP, jQuery, AJAX, DBMS) to BCA 4th Sem students.",
+      "Taught Web Technology (HTML, CSS, XML) to BCA 3rd Sem students.",
+      "Evaluated student performance through assignments and examinations.",
+    ],
+    employmentType: "Part Time",
+  },
+  {
     jobTitle: "Senior Software Engineer",
     company: "PenIT Technology Pte Ltd",
     duration:
@@ -57,7 +68,6 @@ export const work_experience = [
       "Completely responsible for requirement analysis, estimation, development and testing of assigned tasks",
       "Learn and apply version control tool, project management tool, agile methodology, project level technologies and code review process",
       "Understand assigned project's overall business domain, clients and technologies used",
-      "Delphi (NDA Project)- Polymer JS Worked as Fronted Developer. Pipeline (NDA Project) - Polymer JS, Firebase Worked as Frontend Developer",
     ],
     employmentType: "Full Time",
   },

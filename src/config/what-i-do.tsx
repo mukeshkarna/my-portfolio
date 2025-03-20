@@ -7,7 +7,7 @@ export const what_i_do = [
   {
     title: "Project & Product Management",
     description:
-      "Manage and oversee full project lifecycles, ensuring timely delivery and top-notch quality. Work closely with stakeholders to define project goals, allocate resources, and lead teams through agile processes to successful completion.",
+      "Manage and oversee full project life cycles, ensuring timely delivery and top-notch quality. Work closely with stakeholders to define project goals, allocate resources, and lead teams through agile processes to successful completion.",
   },
   {
     title: "Frontend Interface Design & Development",
