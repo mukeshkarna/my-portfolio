@@ -4,11 +4,7 @@ export const work_experience = [
   {
     jobTitle: "Senior Software Developer",
     company: "Threatsview LLC",
-    duration:
-      "Sep 2023 - Present" +
-      " | " +
-      moment(current).diff("Sep 2023", "months") +
-      " months",
+    duration: `Sep 2023 - Present (${current}) | ${moment(current).diff("Sep 2023", "months")} months`,
     responsibilities: [
       "Lead and participate in the design, development, and implementation of software solutions.",
       "Provide technical guidance and mentorship to the development team.",
@@ -60,8 +56,8 @@ export const work_experience = [
       "Continuous research and learning; discover, evaluate and implement new technologies to maximize development efficiency.",
       "Completely responsible for requirement analysis, estimation, development and testing of assigned tasks",
       "Learn and apply version control tool, project management tool, agile methodology, project level technologies and code review process",
-      "Understand assigned project's overall business domain, clients and technologies usedDelphi (NDA Project)- Polymer JS Worked as Fronted Developer. Pipeline (NDA Project) - Polymer JS, Firebase Worked as Frontend Developer Key Responsibilities • Develop software engineer applications with supervision • Work collaboratively within the team to develop high quality software solutions • Follow company's coding standards, policies, processes and working culture • Communicate new ideas, issues, status and outcones with supervisor/team • Continuous research and learning; discover, evaluate and implement new technologies to maximize development efficiency. • Completely responsible for requirement analysis, estimation, development and testing of assigned tasks • Learn and apply version control tool, project management tool, agile methodology, project level technologies and code review process • Understand assigned project's overall business domain, clients and technologies used",
-      
+      "Understand assigned project's overall business domain, clients and technologies used",
+      "Delphi (NDA Project)- Polymer JS Worked as Fronted Developer. Pipeline (NDA Project) - Polymer JS, Firebase Worked as Frontend Developer",
     ],
     employmentType: "Full Time",
   },
