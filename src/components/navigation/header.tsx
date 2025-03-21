@@ -28,7 +28,7 @@ export function Header() {
         <div className="space-y-8 pt-24 sm:pt-40 print:pt-16">
           <div className="relative mb-12 overflow-hidden rounded-xl">
             {/* Cover image */}
-            <div className="absolute inset-0 z-0">
+            <div className="absolute inset-0 z-0 print:hidden">
               <Image
                 src="/assets/IMG_5224.JPG"
                 alt="Cover background"
@@ -61,8 +61,8 @@ export function Header() {
                     Full Stack Developer | Kathmandu, Nepal
                   </h2>
                 </div>
-                <div className="flex justify-center md:justify-end">
-                  <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 dark:border-white border-accent shadow-lg">
+                <div className="flex justify-center md:justify-end print:hidden">
+                  <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-accent shadow-lg dark:border-white">
                     <Image
                       src="/assets/mukesh.jpeg"
                       alt="Mukesh Karna"
