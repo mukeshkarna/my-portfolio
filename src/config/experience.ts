@@ -26,6 +26,18 @@ export const work_experience = [
     employmentType: "Part Time",
   },
   {
+    jobTitle: "Lecturer",
+    company: "Yeti International College",
+    duration: `Mar 2025 - Present (${current}) | ${moment(current).diff("Mar 2025", "months")} months`,
+    responsibilities: [
+      "Taught Dot Net Technology (C# and .NET Framework, ASP.NET, ADO.NET, C# Language basics and Types) to BCA 5th Sem students.",
+      "Taught Advance Java (Swing, JDBC, RMI, JavaBeans, Servlet and JSP) to BCA 6th Sem students.",
+      "Taught Operations Research to BCA 8th Sem students.",
+      "Evaluated student performance through assignments and examinations.",
+    ],
+    employmentType: "Part Time",
+  },
+  {
     jobTitle: "Senior Software Engineer",
     company: "PenIT Technology Pte Ltd",
     duration:
