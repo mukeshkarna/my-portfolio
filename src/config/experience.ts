@@ -3,7 +3,7 @@ const current = moment().format("MMM YYYY")
 export const work_experience = [
   {
     jobTitle: "Senior Software Developer",
-    company: "Threatsview LLC",
+    company: "ThreatsView LLC",
     duration: `Sep 2023 - Present (${current}) | ${moment(current).diff("Sep 2023", "months")} months`,
     responsibilities: [
       "Lead and participate in the design, development, and implementation of software solutions.",
