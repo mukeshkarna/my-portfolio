@@ -21,6 +21,8 @@ export const work_experience = [
     responsibilities: [
       "Taught Scripting Language (JS, PHP & MySQL, OOP in PHP, jQuery, AJAX, DBMS) to BCA 4th Sem students.",
       "Taught Web Technology (HTML, CSS, XML) to BCA 3rd Sem students.",
+      "Taught Operations Research to BCA 8th Sem students.",
+      "Taught Operating Systems to BCA 4th Sem students.",
       "Taught Computer Networks to BCA 5th Sem students.",
       "Evaluated student performance through assignments and examinations.",
     ],
