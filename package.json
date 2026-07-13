@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "vercel-deploy": "vercel --prod",
+    "preview": "next build && next start",
     "start": "next start",
     "lint": "next lint"
   },
