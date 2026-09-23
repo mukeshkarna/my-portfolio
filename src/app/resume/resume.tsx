@@ -198,7 +198,6 @@ export function Resume() {
           </div>
         </div>
         <div className="pt-8">
-          {" "}
           <h2 className="text-2xl font-normal">Projects</h2>
           <div className="grid gap-4 pt-8 sm:grid-cols-2">
             {projects.map((item) => (
